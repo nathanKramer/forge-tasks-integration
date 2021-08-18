@@ -1,6 +1,4 @@
-import { fetch } from "node-fetch";
-
-const buildClient = ({ api_key, base_url, token }) => {};
+import fetch from "node-fetch";
 
 const createCard =
   ({ api_key, base_url, token, list_id }) =>
@@ -22,9 +20,6 @@ const createCard =
       .catch((err) => console.error(`ERROR: ${err}`));
   };
 
-export const client = (trelloConfig) => {
-  const client = buildClient(trelloConfig);
-  return {
-    createCard: createCard(client),
-  };
-};
+export const client = (trelloConfig) => ({
+  createCard: createCard(trelloConfig),
+});
