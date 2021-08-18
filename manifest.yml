@@ -1,0 +1,15 @@
+modules:
+  trigger:
+    - key: forge-tasks-integration-hello-world
+      function: main
+      events:
+        - avi:jira:created:issue
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/c6d7e50e-66d8-4ba9-a161-b91fdf3277cf
+  name: forge-tasks-integration
+permissions:
+  scopes:
+    - read:jira-work

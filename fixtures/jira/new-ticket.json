@@ -1,0 +1,50 @@
+{
+  "id": "10008",
+  "key": "TP-9",
+  "fields": {
+    "summary": "New Ticket Again",
+    "issuetype": {
+      "self": "https://nathan-k-trial.atlassian.net/rest/api/2/issuetype/10001",
+      "id": "10001",
+      "description": "Functionality or a feature expressed as a user goal.",
+      "iconUrl": "https://nathan-k-trial.atlassian.net/secure/viewavatar?size=medium&avatarId=10315&avatarType=issuetype",
+      "name": "Story",
+      "subtask": false,
+      "avatarId": 10315,
+      "hierarchyLevel": 0
+    },
+    "creator": { "accountId": "5ea99953acdf9c0b91121654" },
+    "created": "2021-08-16T12:18:47.062+0000",
+    "project": {
+      "self": "https://nathan-k-trial.atlassian.net/rest/api/2/project/10000",
+      "id": "10000",
+      "key": "TP",
+      "name": "Test Project",
+      "projectTypeKey": "software",
+      "simplified": false,
+      "avatarUrls": {
+        "48x48": "https://nathan-k-trial.atlassian.net/secure/projectavatar?pid=10000&avatarId=10423",
+        "24x24": "https://nathan-k-trial.atlassian.net/secure/projectavatar?size=small&s=small&pid=10000&avatarId=10423",
+        "16x16": "https://nathan-k-trial.atlassian.net/secure/projectavatar?size=xsmall&s=xsmall&pid=10000&avatarId=10423",
+        "32x32": "https://nathan-k-trial.atlassian.net/secure/projectavatar?size=medium&s=medium&pid=10000&avatarId=10423"
+      }
+    },
+    "reporter": { "accountId": "5ea99953acdf9c0b91121654" },
+    "assignee": null,
+    "updated": "2021-08-16T12:18:47.062+0000",
+    "status": {
+      "self": "https://nathan-k-trial.atlassian.net/rest/api/2/status/10000",
+      "description": "",
+      "iconUrl": "https://nathan-k-trial.atlassian.net/",
+      "name": "Backlog",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://nathan-k-trial.atlassian.net/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    }
+  }
+}
