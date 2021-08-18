@@ -1,4 +1,5 @@
-const createTask = async (_task, _context) => {};
+const createTask = async (_task, _context) =>
+  console.info("[todoist] Not yet implemented");
 
 export default {
   createTask,

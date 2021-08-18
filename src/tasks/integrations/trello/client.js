@@ -13,10 +13,11 @@ const createCard =
       method: "POST",
       body: params,
     })
-      .then((response) => {
-        console.log(`[trello]: ${response.status} ${response.statusText}`);
-        return response.text();
-      })
+      .then((response) =>
+        response
+          .json()
+          .then(({ id }) => console.info(`[trello] card_created id=${id}`))
+      )
       .catch((err) => console.error(`ERROR: ${err}`));
   };
 
