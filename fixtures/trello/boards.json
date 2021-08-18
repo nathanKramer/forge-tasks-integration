@@ -1,0 +1,122 @@
+[
+  {
+    "name": "My Board",
+    "desc": "",
+    "descData": null,
+    "closed": false,
+    "dateClosed": null,
+    "idOrganization": "611cec9a54be507be59edc22",
+    "idEnterprise": null,
+    "limits": null,
+    "pinned": null,
+    "shortLink": "qxNxCKwz",
+    "powerUps": [],
+    "dateLastActivity": null,
+    "idTags": [],
+    "datePluginDisable": null,
+    "creationMethod": "automatic",
+    "ixUpdate": null,
+    "enterpriseOwned": false,
+    "idBoardSource": null,
+    "idMemberCreator": "611cec90b77d142bbeb287a2",
+    "id": "611cecb14d22785a6018fbed",
+    "starred": false,
+    "url": "https://trello.com/b/qxNxCKwz/my-board",
+    "prefs": {
+      "permissionLevel": "org",
+      "hideVotes": false,
+      "voting": "disabled",
+      "comments": "members",
+      "invitations": "members",
+      "selfJoin": true,
+      "cardCovers": true,
+      "isTemplate": false,
+      "cardAging": "regular",
+      "calendarFeedEnabled": false,
+      "background": "611ce225417f6e065e3454bd",
+      "backgroundImage": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/e0a2b3e520fe366aa0864413373d34af/photo-1629074219898-dba76b007ad7",
+      "backgroundImageScaled": [
+        {
+          "width": 140,
+          "height": 88,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/140x88/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 256,
+          "height": 160,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/256x160/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 480,
+          "height": 300,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/480x300/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 960,
+          "height": 600,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/960x600/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 1024,
+          "height": 640,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1024x640/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 2048,
+          "height": 1280,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2048x1280/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 1280,
+          "height": 800,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1280x800/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 1920,
+          "height": 1200,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/1920x1200/6581dab5ee8fb821ababa4a258b20d39/photo-1629074219898-dba76b007ad7.jpg"
+        },
+        {
+          "width": 2560,
+          "height": 1600,
+          "url": "https://trello-backgrounds.s3.amazonaws.com/SharedBackground/original/e0a2b3e520fe366aa0864413373d34af/photo-1629074219898-dba76b007ad7"
+        }
+      ],
+      "backgroundTile": false,
+      "backgroundBrightness": "light",
+      "backgroundBottomColor": "#cbc2b9",
+      "backgroundTopColor": "#e7e7ea",
+      "canBePublic": true,
+      "canBeEnterprise": true,
+      "canBeOrg": true,
+      "canBePrivate": true,
+      "canInvite": true
+    },
+    "subscribed": false,
+    "labelNames": {
+      "green": "",
+      "yellow": "",
+      "orange": "",
+      "red": "",
+      "purple": "",
+      "blue": "",
+      "sky": "",
+      "lime": "",
+      "pink": "",
+      "black": ""
+    },
+    "dateLastView": "2021-08-18T11:19:14.709Z",
+    "shortUrl": "https://trello.com/b/qxNxCKwz",
+    "templateGallery": null,
+    "premiumFeatures": [],
+    "memberships": [
+      {
+        "id": "611cecb14d22785a6018fbf1",
+        "idMember": "611cec90b77d142bbeb287a2",
+        "memberType": "admin",
+        "unconfirmed": false,
+        "deactivated": false
+      }
+    ]
+  }
+]

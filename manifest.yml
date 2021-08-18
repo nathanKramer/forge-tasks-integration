@@ -15,5 +15,6 @@ permissions:
     fetch:
       backend:
         - 'https://api.monday.com/v2'
+        - 'https://api.trello.com/1'
   scopes:
     - read:jira-work

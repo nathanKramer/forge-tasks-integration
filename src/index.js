@@ -10,18 +10,22 @@ const taskFromIssue = ({ key, fields }) => {
 };
 
 export async function run(event, context) {
-  const config = loadConfig(process.env);
-
-  const { issue } = event;
-  const task = taskFromIssue(issue);
-
   try {
-    const data = await taskCreated(task, {
-      source: "jira",
-      config,
-      ...context,
-    });
-  } catch (error) {
-    console.error(JSON.stringify(error, undefined, 2));
+    const config = loadConfig(process.env);
+
+    const { issue } = event;
+    const task = taskFromIssue(issue);
+
+    try {
+      const data = await taskCreated(task, {
+        source: "jira",
+        config,
+        ...context,
+      });
+    } catch (error) {
+      console.error(JSON.stringify(error, undefined, 2));
+    }
+  } catch (err) {
+    console.error(`Ludicrous error: ${err}`);
   }
 }

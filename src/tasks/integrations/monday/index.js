@@ -1,5 +1,10 @@
 import { client } from "./client";
-import { itemFromTask } from "./items";
+
+export const itemFromTask = ({ title }, { board_id, group_id }) => ({
+  board_id,
+  item_name: title,
+  group_id,
+});
 
 const createTask = async (task, config) => {
   const { createItem } = client(config);
