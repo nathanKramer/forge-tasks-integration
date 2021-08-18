@@ -15,5 +15,13 @@ export async function run(event, context) {
   const { issue } = event;
   const task = taskFromIssue(issue);
 
-  await taskCreated(task, { source: "jira", config, ...context });
+  try {
+    const data = await taskCreated(task, {
+      source: "jira",
+      config,
+      ...context,
+    });
+  } catch (error) {
+    console.error(JSON.stringify(error, undefined, 2));
+  }
 }
