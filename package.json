@@ -13,6 +13,8 @@
     "eslint-plugin-react-hooks": "^2.1.2"
   },
   "dependencies": {
-    "@forge/ui": "^0.8.1"
+    "@forge/ui": "^0.8.1",
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.5.0"
   }
 }

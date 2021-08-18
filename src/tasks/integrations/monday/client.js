@@ -27,13 +27,17 @@ const items = (client) => async () =>
 const createItem = (client) => async (item) =>
   client.request(
     gql`
-      mutation {
-        create_column(
-          board_id: 1576286953
-          title: ${item.title}
-        )
+      mutation ($group_id: String!, $item_name: String!) {
+        create_item(
+          group_id: $group_id
+          board_id: $board_id
+          item_name: $item_name
+        ) {
+          id
+        }
       }
-    `
+    `,
+    { item_name: item.item_name, group_id: "new_group29179" }
   );
 
 export const client = (mondayConfig) => {

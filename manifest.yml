@@ -11,5 +11,9 @@ app:
   id: ari:cloud:ecosystem::app/c6d7e50e-66d8-4ba9-a161-b91fdf3277cf
   name: forge-tasks-integration
 permissions:
+  external:
+    fetch:
+      backend:
+        - 'https://api.monday.com/v2'
   scopes:
     - read:jira-work

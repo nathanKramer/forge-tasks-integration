@@ -1,13 +1,19 @@
 import { client } from "./client";
 
-const itemFromTask = ({ title }) => ({
-  title,
+const itemFromTask = ({ title }, { board_id, group_id }) => ({
+  board_id,
+  item_name: title,
+  group_id,
 });
 
-export async function createTask(task, { config }) {
-  const { monday } = config;
-  const { createItem } = client(monday);
+const createTask = async (task, config) => {
+  const { createItem } = client(config);
 
-  const item = itemFromTask(task);
+  const item = itemFromTask(task, config);
   return createItem(item);
-}
+};
+
+export default {
+  createTask,
+  name: "monday",
+};

@@ -1,4 +1,0 @@
-#!/bin/sh
-
-forge variables:set --encrypt MONDAY_API_KEY eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjEyMDczNzA4NywidWlkIjoyMzgyMzk1NCwiaWFkIjoiMjAyMS0wOC0xNFQxMjozOTozNi4wNjZaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6OTY2MjQ1MSwicmduIjoidXNlMSJ9.h4YNWEaxk-f_nRtcO1QGsdDsES5LUmvuy-DADM0qg4c
-forge variables:set MONDAY_BASE_URL https://api.monday.com/v2

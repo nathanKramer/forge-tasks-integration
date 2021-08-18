@@ -1,5 +1,5 @@
 import { loadConfig } from "./config";
-import { taskCreated } from "tasks";
+import { taskCreated } from "./tasks";
 
 const taskFromIssue = ({ key, fields }) => {
   const { summary } = fields;
